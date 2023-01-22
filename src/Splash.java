@@ -29,7 +29,7 @@ public  class Splash extends JFrame implements Runnable  {
 	     setVisible(true );                                   // (makes hidden frame visible )
 	    
 	     
-	     thread = new Thread(this);
+	     thread = new Thread(this);                             // this:- splash cls constructor   frame
 	     thread.start();
 	}
 	
